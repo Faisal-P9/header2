@@ -18,7 +18,7 @@
         let tHeader = gsap.timeline({})
 
         tHeader
-        .to('.header__masking--maskLayer', { duration: 0, opacity: 1, stagger: 0.001, ease: "none" })
+        .to('.header__masking--maskLayer', { duration: 0, opacity: 1, stagger: 0.1, ease: "none" })
 
         .add('head', '-=0.2')
         .to('.header__masking', { duration: 0, opacity: 0, ease: "none" }, 'head')
